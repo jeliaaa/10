@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="new">
+      <div class="left-section"><img src="img.png" alt="" /></div>
+      <div class="containers">
+        <div class="inside-container"></div>
+        <form action="" id="contact-form">
+          <div class="form-group">
+            <label for="username">Username *</label>
+            <input
+              placeholder="Enter your Username"
+              type="text"
+              id="inp-name"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input
+              placeholder="Enter your Email"
+              type="email"
+              id="inp-email"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              placeholder="Enter feedback"
+              rows="3"
+              class="form-control"
+              id="inp-msg"
+            ></textarea>
+          </div>
+          <div class="remember">
+            <input type="checkbox" placeholder="Remember me" />
+            <label for="remember">Remember my info</label>
+          </div>
+          <div style="display: flex; justify-content: center">
+            <button class="submit_btn" type="submit" >Submit</button>
+          </div>
+        </form>
+        <a href="#">Any problems?</a>
+      </div>
+      <div id="result"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
